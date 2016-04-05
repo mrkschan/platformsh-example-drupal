@@ -65,6 +65,8 @@ hooks:
       pwd
       ls -la
       mount
+      cat /etc/hosts
+      echo "DEBUG"
     # We run deploy hooks after your application has been deployed and started.
     deploy: |
       cd public
